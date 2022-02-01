@@ -5,9 +5,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by jt on 8/22/21.
- */
 @Component
 public class AuthorDaoImpl implements AuthorDao {
 

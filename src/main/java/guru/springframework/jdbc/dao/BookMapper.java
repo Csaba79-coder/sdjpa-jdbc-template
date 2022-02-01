@@ -7,9 +7,6 @@ import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * Created by jt on 8/25/21.
- */
 public class BookMapper implements RowMapper<Book> {
 
     @Override

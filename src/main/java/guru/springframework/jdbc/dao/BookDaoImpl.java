@@ -4,9 +4,6 @@ import guru.springframework.jdbc.domain.Book;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by jt on 8/25/21.
- */
 @Component
 public class BookDaoImpl implements BookDao {
     private final JdbcTemplate jdbcTemplate;
