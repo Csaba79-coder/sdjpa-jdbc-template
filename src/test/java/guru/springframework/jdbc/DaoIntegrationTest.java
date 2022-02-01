@@ -57,6 +57,8 @@ public class DaoIntegrationTest {
 
         Author saved = authorDao.saveNewAuthor(author);
 
+        System.out.println("New ID for test date saved: " + saved.getId());
+
         assertThat(saved).isNotNull();
     }
 
